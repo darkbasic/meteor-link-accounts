@@ -1,8 +1,8 @@
 {
   "name": "link-accounts",
   "description": "Link social network accounts to existing Meteor user.",
-  "homepage": "https://github.com/yubozhao/meteor-link-accounts",
-  "author": "Bozhao Yu <yubz86@gmail.com>",
-  "version": "0.1.1",
-  "git": "https://github.com/yubozhao/meteor-link-accounts.git"
+  "homepage": "https://github.com/darkbasic/meteor-link-accounts",
+  "author": "Niccolo' Belli <niccolo.belli@linuxsystems.it>",
+  "version": "1.3.0",
+  "git": "https://github.com/darkbasic/meteor-link-accounts.git"
 }

@@ -1,5 +1,6 @@
 # Meteor Link Accounts
 A Meteor package designed to links social network accounts without any hassles.
+*Works with the Cordova Facebook SDK* (tested on Android)
 
 ## Next Steps
 * Look into work with Apollo (graphQL)
@@ -29,7 +30,7 @@ A Meteor package designed to links social network accounts without any hassles.
 
 ## Support Accounts Package
 accounts-meteor-developer, accounts-github accounts-facebook,
-btafel:accounts-facebook-cordova, accounts-google, accounts-twitter,
+darkbasic:accounts-facebook-cordova, accounts-google, accounts-twitter,
 accounts-meetup, accounts-weibo, bozhao:accounts-instagram,
 mrt:accounts-vk, mikepol:accounts-ok, mikepol:accounts-mailru,
 jonperl:accounts-linkedin, garbolino:accounts-soundcloud, alexbeauchemin:accounts-twitch, 

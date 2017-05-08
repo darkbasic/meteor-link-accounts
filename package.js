@@ -3,9 +3,9 @@ var path = Npm.require('path');
 
 Package.describe({
   "summary": "Meteor external service link system",
-  "version": "1.2.10",
-  "git": "https://github.com/yubozhao/meteor-link-accounts",
-  "name": "bozhao:link-accounts",
+  "version": "1.3.0",
+  "git": "https://github.com/darkbasic/meteor-link-accounts",
+  "name": "darkbasic:link-accounts",
   "description": "Link social accounts for Meteor"
 });
 
@@ -13,8 +13,10 @@ Package.on_use(function (api) {
   api.versionsFrom('METEOR@0.9.0');
 
   api.imply('accounts-base', ['client', 'server']);
-  api.use(['underscore', 'check']);
+  //api.use(['underscore', 'check']);
+  api.use(['underscore', 'check'], ['client', 'server']);
   api.use(['accounts-oauth', 'oauth'], ['client', 'server']);
+  api.use('http', ['server']);
 
   api.add_files('link_accounts_client.js', 'client');
   api.add_files('link_accounts_server.js', 'server');
